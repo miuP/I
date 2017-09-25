@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0916364427F83CA44DCD7E99 /* Pods_I_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_I_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		594A46E4918712B319DD2CE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		594A46E4918712B319DD2CE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* I_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = I_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6085EAD827AC04B25C8A11A0 /* Pods-I_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-I_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-I_Tests/Pods-I_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A598EA706E52C98F79A31C7E /* Pods_I_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_I_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4E77144F0BD3979B5D9E6A8 /* I.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = I.podspec; path = ../I.podspec; sourceTree = "<group>"; };
+		B4E77144F0BD3979B5D9E6A8 /* I.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = I.podspec; path = ../I.podspec; sourceTree = "<group>"; };
 		E195252280623CB5F218EC25 /* Pods-I_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-I_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-I_Example/Pods-I_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F2EE73EBAA35AD62FDED89F3 /* Pods-I_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-I_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-I_Tests/Pods-I_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F42D9EBD5D090845DE65479A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F42D9EBD5D090845DE65479A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FF958FFBB94A2C1B77DAFE5A /* Pods-I_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-I_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-I_Example/Pods-I_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -515,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = I/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -529,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = I/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
