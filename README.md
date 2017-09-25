@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/I.svg?style=flat)](http://cocoapods.org/pods/I)
 [![Platform](https://img.shields.io/cocoapods/p/I.svg?style=flat)](http://cocoapods.org/pods/I)
 
+"I" can add corner radius, border and shadow config to your project IB files.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
